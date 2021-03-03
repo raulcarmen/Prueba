@@ -1,8 +1,7 @@
 import machine, time, random 
 led = machine.Pin(2, machine.Pin.OUT)
 
-l = range(1000000)
-r = int(random.choice(l))
+r = int(random.randrange(l000000))
 cont = 0
 print()
 print("{0} es divisible por".format(r), end=": ")
